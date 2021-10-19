@@ -1,2 +1,19 @@
-<h1>This is dynamic!!</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+</script>
+
+<div class="container">
+	<h1>Sorting Algorithm Visualizer</h1>
+</div>
+
+<style>
+	* {
+		border: 1px solid red;
+	}
+
+	.container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 3% 5% 7%;
+	}
+</style>
